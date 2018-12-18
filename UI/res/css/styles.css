@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Regular.eot');
+    src: url('../fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'), url('../fonts/SFUIDisplay-Regular.woff') format('woff'), url('../fonts/SFUIDisplay-Regular.svg#SFUIDisplay-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Medium.eot');
+    src: url('../fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'), url('../fonts/SFUIDisplay-Medium.woff') format('woff'), url('../fonts/SFUIDisplay-Medium.svg#SFUIDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Bold.eot');
+    src: url('../fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'), url('../fonts/SFUIDisplay-Bold.woff') format('woff'), url('../fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Black.eot');
+    src: url('../fonts/SFUIDisplay-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/SFUIDisplay-Black.woff2') format('woff2'), url('../fonts/SFUIDisplay-Black.woff') format('woff'), url('../fonts/SFUIDisplay-Black.svg#SFUIDisplay-Black') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: SF UI Display !important;
+}
+
+.input-normal {
+    height: 36px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.input-normal::placeholder {
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+}
+
+.input-normal-label {
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button-big {
+    background: #FC4100;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    border: 0px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar {
+    height: 60px;
+    background-image: url(../imgs/bg.png);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    z-index: 15;
+}
+
+.nav-button-hili {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #FC4100;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 0px;
+    margin-right: 25px;
+}
+
+.nav-button-nobg {
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 0px;
+}
