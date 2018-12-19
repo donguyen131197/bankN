@@ -111,6 +111,18 @@ body {
     text-transform: uppercase;
 }
 
+.button-small {
+    background: #FC4100;
+    border-radius: 5px;
+    padding: 5px 30px;
+    text-align: center;
+    border: 0px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .button-med.neg {
     background: #6F6A6A !important;
 }
@@ -222,7 +234,7 @@ button {
     text-decoration: underline;
 }
 
-.rep-ava {
+.acc-ava {
     height: 48px;
     width: 48px;
     border-radius: 50%;
@@ -235,16 +247,29 @@ button {
     padding-top: 5px;
 }
 
-.rep-name {
+.acc-name {
     font-size: 16px;
+    margin-top: 10px;
     font-weight: 700;
 }
 
-.rep-num {
-    font-size: 16px;
-    font-weight: 300;
+#card-topup {
+    cursor: pointer;
 }
 
-#card-remove {
-    cursor: pointer;
+.home-dir {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.home-dir>a {
+    color: #888;
+    text-decoration: none;
+}
+
+.home-dir>a:hover {
+    color: #888;
 }

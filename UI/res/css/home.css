@@ -80,29 +80,6 @@
     grid-template-columns: auto auto auto;
 }
 
-.rep-ava {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    background: #FC4100;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-right: 20px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-.rep-name {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.rep-num {
-    font-size: 18px;
-    font-weight: 300;
-}
-
 .trans-container {
     display: grid;
     grid-column-gap: 60px;
