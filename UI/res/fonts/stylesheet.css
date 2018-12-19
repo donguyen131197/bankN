@@ -1,44 +1,11 @@
 @font-face {
     font-family: 'SF UI Display';
-    src: url('SFUIDisplay-Regular.eot');
-    src: url('SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('SFUIDisplay-Regular.woff2') format('woff2'),
-        url('SFUIDisplay-Regular.woff') format('woff'),
-        url('SFUIDisplay-Regular.svg#SFUIDisplay-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display';
-    src: url('SFUIDisplay-Black.eot');
-    src: url('SFUIDisplay-Black.eot?#iefix') format('embedded-opentype'),
-        url('SFUIDisplay-Black.woff2') format('woff2'),
-        url('SFUIDisplay-Black.woff') format('woff'),
-        url('SFUIDisplay-Black.svg#SFUIDisplay-Black') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display';
     src: url('SFUIDisplay-Medium.eot');
     src: url('SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
         url('SFUIDisplay-Medium.woff2') format('woff2'),
         url('SFUIDisplay-Medium.woff') format('woff'),
         url('SFUIDisplay-Medium.svg#SFUIDisplay-Medium') format('svg');
     font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SF UI Display';
-    src: url('SFUIDisplay-Bold.eot');
-    src: url('SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('SFUIDisplay-Bold.woff2') format('woff2'),
-        url('SFUIDisplay-Bold.woff') format('woff'),
-        url('SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
-    font-weight: bold;
     font-style: normal;
 }
 
